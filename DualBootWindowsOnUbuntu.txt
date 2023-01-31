@@ -6,3 +6,4 @@
 # Boot with Ubuntu live usb, and manage partition of the pc
 ## Ref:
 - https://itsfoss.com/install-windows-after-ubuntu-dual-boot/
+- https://www.techsolveprac.com/install-windows-after-ubuntu-dual/
