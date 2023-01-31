@@ -2,8 +2,15 @@
 ## Ref:
 - https://www.youtube.com/watch?v=ScCUDX5gtRw
 - https://www.geeksforgeeks.org/how-to-create-ubuntu-persistence-using-mkusb/
+* Use usb 3.0 (fastest), otherwise it will be painfully slow
 
 # Boot with Ubuntu live usb, and manage partition of the pc
 ## Ref:
 - https://itsfoss.com/install-windows-after-ubuntu-dual-boot/
 - https://www.techsolveprac.com/install-windows-after-ubuntu-dual/
+1. Enter BIOS mode
+F12 for DELL
+2.Edit Booting configuration 
+Turn off Security mode
+3. Set live usb as first priority in booting order
+4. Start Ubuntu live usb in try mode
