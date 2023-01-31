@@ -1,5 +1,6 @@
 # Remove all files except certain files with same pattern
 rm !(*.png)
 
-# Remove all files except certain files
-rm -v !([FILE_NAME1]|[FILE_NAME2]|[FILE_NAME3]|[[FILE_NAME4] ... )
+# Remove all files except certain files 
+# IMPORTANT! List all files without whitespace, and | in between
+rm !([FILE_NAME1]|[FILE_NAME2]|[FILE_NAME3]|[[FILE_NAME4] ... )
