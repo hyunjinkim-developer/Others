@@ -14,3 +14,6 @@ F12 for DELL
 Turn off Security mode
 3. Set live usb as first priority in booting order
 4. Start Ubuntu live usb in try mode
+5. Resize partition
+https://heisanbug.tistory.com/18
+https://www.techsolveprac.com/install-windows-after-ubuntu-dual/
