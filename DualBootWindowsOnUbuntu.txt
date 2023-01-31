@@ -1,0 +1,6 @@
+# Create Ubuntu live usb with persistent storage
+## Ref:
+- https://www.youtube.com/watch?v=ScCUDX5gtRw
+- https://www.geeksforgeeks.org/how-to-create-ubuntu-persistence-using-mkusb/
+
+# 
