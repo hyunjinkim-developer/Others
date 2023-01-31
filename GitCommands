@@ -25,6 +25,7 @@ git push [origin?] [main?]
 
 # Git pull VS fetch VS clone
 # pull
+?git pull <원격 저장소 명> <branch 명>
 ?git pull명령은 원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에, 기존에 작업했던 내용은 유지하면서 최신 코드로 업데이트할 수 있는 것이다.
 ?git pull명령은 병합 과정도 포함되어 있기 때문에, pull을 하기 전에 commit을 하지 않으면 덮어쓰기 에러가 발생할 수 있다. 즉 기존 작업에 대해 commit을 미리 해두고 pull을 수행해주자.
 # fetch
