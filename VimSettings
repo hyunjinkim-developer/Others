@@ -1,0 +1,15 @@
+" Automatically close brackets
+" i means insert
+" noremap means non-recursive versions of the various mapping commands
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+" Disable certain keys
+inoremap <PageUp> <Nop>
+inoremap <PageDown> <Nop>
+
