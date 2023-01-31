@@ -22,3 +22,13 @@ git push [origin?] [main?]
 
 # Add remote git to local
 # Check remote branch name
+
+# Git pull VS fetch VS clone
+# pull
+?git pull명령은 원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에, 기존에 작업했던 내용은 유지하면서 최신 코드로 업데이트할 수 있는 것이다.
+?git pull명령은 병합 과정도 포함되어 있기 때문에, pull을 하기 전에 commit을 하지 않으면 덮어쓰기 에러가 발생할 수 있다. 즉 기존 작업에 대해 commit을 미리 해두고 pull을 수행해주자.
+# fetch
+?fetch의 경우 단지 소스를 가져올 뿐 merge 하지는 않습니다.
+# clone
+git clone명령을 사용하면 로컬 저장소의 내용이 원격 저장소의 내용과 일치해진다.
+기존에 작업중이었던 사람이 git명령을 사용해서 원격 저장소의 내용을 그대로 가져와버리면 기존에 작업했던 내용들은 직접 복구해야 한다. 즉, git clone은 프로젝트에 처음 투입될 때 사용되어야 하는 명령인 것이다.
