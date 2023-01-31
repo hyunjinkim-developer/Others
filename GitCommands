@@ -1,0 +1,24 @@
+# Add new file into git, push to remote repository
+
+# Track version changes of new file into git
+git add [FILE_NAME]
+
+# Check files that are added to git 
+git status
+
+# Commit added files with commit messages
+git commit -m "COMMIT MESSAGES"
+
+# Check commit log
+git log
+
+# Sending commits to remote repository
+git push [origin?] [main?]
+
+# What's the difference after github change branch name master to main
+
+# Check all branch name
+# Change working branch
+
+# Add remote git to local
+# Check remote branch name
